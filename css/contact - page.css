@@ -123,6 +123,12 @@ textarea{
     color: white;
 }
 
+#button-container10:hover{
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
 .message-bubble {
   position: relative; 
   padding: 10px 15px;

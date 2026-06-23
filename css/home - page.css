@@ -85,6 +85,20 @@ margin-left: 60px;
     margin-top: 4%;
     
 }
+
+#job:hover{
+background-color: royalblue;
+border: none;
+cursor: pointer;
+
+}
+
+#cv:hover{
+background-color:  royalblue;
+border: none;
+cursor: pointer;
+
+}
 #job{
     background-color: #7817DE;
     display: flex;

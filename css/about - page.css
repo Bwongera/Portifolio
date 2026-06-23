@@ -114,6 +114,12 @@
     height: 40px;
 
 }
+#button2:hover{
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+}
+
 #menu-container span a{
      color: white;
 }
@@ -142,6 +148,35 @@ table{
     color: white;
     font-size: 18px;
  }
+
+#rate:hover{
+    background-color: #9c413e;
+    cursor: pointer;
+}
+
+#figma:hover{
+    background-color: #b34449;
+    cursor: pointer;
+}
+
+#frontend:hover{
+    background-color: #a79f2f;
+    cursor: pointer; 
+}
+
+#frontend-2:hover{
+   background-color: #27af6b;
+    cursor: pointer;  
+}
+
+#version:hover{
+    background-color: #8d4c96;
+    cursor: pointer;
+}
+#linux:hover{
+    background-color: #16589e;
+    cursor: pointer;
+}
  td{
    border-right: 2px dashed white; 
    padding: 5px 10px;
