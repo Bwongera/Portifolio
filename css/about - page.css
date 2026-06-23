@@ -104,8 +104,9 @@
 }
 #read-button{
     height: 30px;
-    margin-top: 15%;
+    margin-top: 8%;
     margin-left: 140px;
+    
     
 }
 #button2{
@@ -123,6 +124,7 @@
 
 
 table{
+    background-color: #7D7575;
     width: 50%;
     border: 2px dashed white;
     border-collapse: collapse;
@@ -134,11 +136,11 @@ table{
     
  }
  th{
-    /* background-color: green; */
     text-align: left;
     border: 2px dashed white;
     padding: 5px 10px;
     color: white;
+    font-size: 18px;
  }
  td{
    border-right: 2px dashed white; 
@@ -148,6 +150,12 @@ th,td{
   
     text-align: left;
     color: white;
+    font-size: 18px;
+}
+#table-200{
+    width: 90%;
+    margin-top: 8%;
+    
 }
    
     
