@@ -42,6 +42,7 @@
 }
 #menu-container span a{
      color: white;
+     text-decoration: none;
 }
 #menu-container span a:hover{
     color: brown;

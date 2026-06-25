@@ -21,6 +21,7 @@
     margin-right: 410px;
     font-size: 20px;
     margin-top: 3%;
+    
 }
 
 #project{
@@ -165,6 +166,7 @@ textarea{
 }
 #menu-container span a{
      color: white;
+     text-decoration: none;
 }
 #menu-container span a:hover{
     color: brown;
