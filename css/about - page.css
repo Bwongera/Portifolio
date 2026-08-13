@@ -1,214 +1,11 @@
- /* * {
-    margin: 0;
-    padding: 0;
-    font-family: verdana, sans-serif;
-}
-
-#body-container{
-    background-color: #3b3b3b;
-}
-#container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#logo img{
-    width: 150px;
-    margin-left: 250px;
-}
-
-#menu-container{
-    display: flex;
-    gap: 50px;
-    margin-right: 350px;
-    font-size: 20px;
-    color: white;
-}
-#boxes-container{
-    display: flex;
-    justify-content: center;
-    margin: 45px;
-    padding: 3px;
-    height: 600px;
-    
-}
-#box-red{
-    background-color: white;
-    width: 36%; 
-    height: 680px;   
-}
-
-#box-green{
-	width: 0;
-	height: 0;
-	border-top: 340px solid transparent;
-	border-left: 680px solid #555;
-	border-bottom: 340px solid transparent;
-}
-
-#ngabo{
-    display: flex;
-    position: absolute;
-    right: 745px;
-    margin-top:6%;
-    font-style: italic;
-    font-size: 20PX;
-     transform: skewX(-40deg);
-    
-}
-#box-yellow{
-    display: flex;
-    height: 77vh;
-    position: absolute;
-    right: 150px;
-}
-#header1{
-    display: flex;
-    justify-content: center;
-    margin-top: 8%;
-    margin-bottom: 35px;
-}
-#para1{
-    display: flex;
-    justify-content: center;
-  margin-left: 40px;
-  margin-top: 15%;
-
-}
-#para2{
-    margin-left: 40px;
-     display: flex;
-    justify-content: center;
-}
-#para3{
-    margin-left: 40px;
-     display: flex;
-    justify-content: center;
-    
-}
-#para4{
-    margin-left: 40px;
-    margin-top: 5%;
-     display: flex;
-    justify-content: center;
-}
-#para5{
-    margin-left: 40px;
-     display: flex;
-    justify-content: center;
-}
-#para6{
-    margin-left: 38px;
-     display: flex;
-    justify-content: center;
-}
-#read-button{
-    height: 30px;
-    margin-top: 8%;
-    margin-left: 140px;
-    
-    
-}
-#button2{
-    width: 100px;
-    height: 40px;
-
-}
-#button2:hover{
-    background-color: yellow;
-    border: none;
-    cursor: pointer;
-}
-
-#menu-container span a{
-     color: white;
-}
-#menu-container span a:hover{
-    color: brown;
-}
-
-
-
-table{
-    background-color: #5a9964;
-    width: 50%;
-    border: 2px dashed white;
-    border-collapse: collapse;
-    margin: 0 auto 30px 0 auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-
-    
- }
- th{
-    text-align: left;
-    border: 2px dashed rgba(255, 255, 255, 0.76);
-    padding: 5px 10px;
-    color: white;
-    font-size: 18px;
- }
-
-#rate:hover{
-    background-color: rgb(201, 64, 206);
-    cursor: pointer;
-}
-
-#figma:hover{
-    background-color: rgb(196, 206, 64);
-    cursor: pointer;
-}
-
-#frontend:hover{
-    background-color: rgb(196, 206, 64);
-    cursor: pointer; 
-}
-
-#frontend-2:hover{
-   background-color: rgb(196, 206, 64);
-    cursor: pointer;  
-}
-
-#version:hover{
-    background-color: rgb(196, 206, 64);
-    cursor: pointer;
-}
-#linux:hover{
-    background-color: rgb(196, 206, 64);
-    cursor: pointer;
-}
- td{
-   border-right: 2px dashed white; 
-   padding: 5px 10px;
-   
-}
-th,td{
-  
-    text-align: center;
-    color: white;
-    font-size: 18px;
-}
-#table-200{
-    width: 90%;
-    margin-top: 8%;
-    
-}
-   
-    
-
-
-
-
-      */
-
-      *{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* BACKGROUND */
+/* BACKGROUND
 body{
     background: linear-gradient(120deg, #2b2f36, #1c1f25);
     color: white;
@@ -228,9 +25,9 @@ body{
 }
 #menu-container{
     display: flex;
-    margin-right: 300px;
-    gap: 30px;
-    font-size: 20px;
+    margin-right: 120px;
+    gap: 60px;
+    font-size: 24px;
     color: white;
 }
 th{
@@ -346,7 +143,7 @@ td{
     cursor: pointer;
 }
 
-/* NAVBAR */
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -378,19 +175,19 @@ nav a.active::after{
     bottom: -5px;
 }
 
-/* HERO */
+
 .hero{
     display: flex;
     padding: 10px 90px;
 }
 
-/* LEFT CARD */
+
 .left-card{
     width: 45%; 
     background: white;
     color: #111;
     padding: 30px;
-    /* border-radius: 10px; */
+   
 }
 
 .left-card h2{
@@ -416,7 +213,7 @@ nav a.active::after{
     width: 150px;
 }
 
-/* TABLE */
+
 .table-box{
     margin-top: 10px;
 }
@@ -447,7 +244,7 @@ td span{
     font-weight: bold;
 }
 
-/* RIGHT IMAGE */
+
 .right-image{
     width: 50%;
     display: flex;
@@ -458,4 +255,606 @@ td span{
  .right-image img{
     width: 73vh;
 
-} 
+}  
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+
+/* =========================
+   PAGE
+========================= */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #3b3b3b;
+    color: white;
+    overflow: hidden;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 8%;
+
+    position: relative;
+    z-index: 20;
+}
+
+#logo img {
+    width: 115px;
+    height: auto;
+    display: block;
+}
+
+#menu-container {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+#menu-container span a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    transition: 0.3s ease;
+}
+
+#menu-container span a:hover {
+    color: rgb(255, 212, 59);
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    width: 100%;
+    height: calc(100vh - 90px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px 8% 25px;
+
+    position: relative;
+}
+
+
+/* =========================
+   LEFT CARD
+========================= */
+
+.left-card {
+    width: 62%;
+    height: 100%;
+
+    background: #303030;
+
+    border: 1px solid rgba(255, 212, 59, 0.35);
+
+    border-radius: 18px;
+
+    padding: 38px 45px;
+
+    position: relative;
+
+    z-index: 5;
+
+    box-shadow:
+        0 10px 35px rgba(0, 0, 0, 0.35),
+        inset 0 0 25px rgba(255, 212, 59, 0.025);
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+#me {
+    font-size: 34px;
+
+    letter-spacing: 2px;
+
+    color: white;
+
+    margin-bottom: 25px;
+
+    position: relative;
+}
+
+#me::after {
+    content: "";
+
+    width: 65px;
+    height: 4px;
+
+    background: rgb(255, 212, 59);
+
+    position: absolute;
+
+    left: 0;
+    bottom: -10px;
+
+    border-radius: 10px;
+}
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+#adress {
+    line-height: 1.8;
+
+    color: #d0d0d0;
+
+    font-size: 14px;
+
+    margin-top: 30px;
+}
+
+#adress p {
+    margin-bottom: 2px;
+}
+
+#adress-4 {
+    margin-top: 18px;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+#more {
+    margin-top: 25px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+
+    background: rgb(255, 212, 59);
+
+    color: #222;
+
+    padding: 11px 18px;
+
+    border-radius: 7px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.btn i {
+    margin-left: 7px;
+    color: #444 !important;
+}
+
+.btn:hover {
+    transform: translateX(5px);
+
+    box-shadow:
+        0 5px 18px rgba(255, 212, 59, 0.25);
+}
+
+
+/* =========================
+   TABLE
+========================= */
+
+.table-box {
+    width: 100%;
+
+    margin-top: 30px;
+
+    overflow: hidden;
+
+    border-radius: 10px;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#taburo {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background: #292929;
+}
+
+#taburo th {
+    height: 48px;
+
+    background: #242424;
+
+    color: #e8e8e8;
+
+    font-size: 12px;
+
+    letter-spacing: 0.5px;
+
+    text-align: left;
+
+    padding: 12px 15px;
+
+    border-bottom:
+        1px solid rgba(255, 212, 59, 0.25);
+}
+
+#taburo td {
+    height: 44px;
+
+    padding: 10px 15px;
+
+    font-size: 12px;
+
+    color: #d7d7d7;
+
+    border-bottom:
+        1px solid rgba(255, 255, 255, 0.06);
+}
+
+#taburo tbody tr:last-child td {
+    border-bottom: none;
+}
+
+#taburo tbody tr {
+    transition: 0.25s ease;
+}
+
+#taburo tbody tr:hover {
+    background: rgba(255, 212, 59, 0.07);
+}
+
+
+/* =========================
+   TABLE ICONS
+========================= */
+
+#taburo td i {
+    margin-right: 7px;
+}
+
+
+/* =========================
+   RATES
+========================= */
+
+#taburo td:last-child,
+#taburo th:last-child {
+    text-align: center;
+}
+
+#taburo td span {
+    color: rgb(255, 212, 59);
+
+    font-weight: bold;
+
+    background: rgba(255, 212, 59, 0.08);
+
+    padding: 5px 8px;
+
+    border-radius: 5px;
+}
+
+
+/* =========================
+   TRIANGLE
+========================= */
+
+.triangle-right {
+    width: 0;
+    height: 0;
+
+    border-top: 260px solid transparent;
+
+    border-bottom: 450px solid transparent;
+
+    border-left: 160px solid rgb(255, 212, 59);
+
+    opacity: 0.9;
+
+    margin-left: -20px;
+
+    position: relative;
+
+    z-index: 3;
+}
+
+
+/* =========================
+   IMAGE
+========================= */
+
+.right-image {
+    width: 34%;
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-end;
+
+    position: relative;
+
+    z-index: 6;
+
+    margin-left: -90px;
+}
+
+.right-image img {
+    width: 100%;
+
+    max-width: 450px;
+
+    max-height: 100%;
+
+    height: auto;
+
+    display: block;
+
+    object-fit: contain;
+
+    filter:
+        drop-shadow(
+            0 12px 20px rgba(0, 0, 0, 0.35)
+        );
+}
+
+
+/* =========================
+   1100px
+========================= */
+
+@media (max-width: 1100px) {
+
+    .navbar {
+        padding: 0 5%;
+    }
+
+    .hero {
+        padding: 15px 5% 20px;
+    }
+
+    .left-card {
+        width: 65%;
+
+        padding: 32px;
+    }
+
+    .right-image {
+        width: 38%;
+
+        margin-left: -70px;
+    }
+
+    .triangle-right {
+        border-top-width: 220px;
+        border-bottom-width: 220px;
+        border-left-width: 130px;
+    }
+
+    #me {
+        font-size: 29px;
+    }
+}
+
+
+/* =========================
+   850px
+========================= */
+
+@media (max-width: 850px) {
+
+    .navbar {
+        height: 80px;
+    }
+
+    .hero {
+        height: calc(100vh - 80px);
+
+        padding: 15px 4% 20px;
+    }
+
+    #logo img {
+        width: 115px;
+    }
+
+    #menu-container {
+        gap: 25px;
+    }
+
+    #menu-container span a {
+        font-size: 14px;
+    }
+
+    .left-card {
+        width: 70%;
+
+        padding: 28px;
+    }
+
+    .right-image {
+        width: 42%;
+
+        margin-left: -80px;
+    }
+
+    .triangle-right {
+        border-top-width: 180px;
+        border-bottom-width: 180px;
+        border-left-width: 100px;
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 650px) {
+
+    html,
+    body {
+        height: auto;
+    }
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .navbar {
+        height: auto;
+
+        padding: 20px 6%;
+
+        flex-direction: column;
+
+        gap: 15px;
+    }
+
+    #logo img {
+        width: 120px;
+    }
+
+    #menu-container {
+        gap: 25px;
+    }
+
+    #menu-container span a {
+        font-size: 13px;
+    }
+
+    .hero {
+        height: auto;
+
+        flex-direction: column;
+
+        padding: 25px 6% 50px;
+    }
+
+    .left-card {
+        width: 100%;
+
+        height: auto;
+
+        padding: 30px 20px;
+
+        border-radius: 15px;
+    }
+
+    #me {
+        font-size: 26px;
+    }
+
+    #adress {
+        font-size: 13px;
+
+        line-height: 1.7;
+    }
+
+    .table-box {
+        overflow-x: auto;
+    }
+
+    #taburo {
+        min-width: 500px;
+    }
+
+    .triangle-right {
+        display: none;
+    }
+
+    .right-image {
+        width: 90%;
+
+        height: auto;
+
+        margin: 20px auto 0;
+    }
+
+    .right-image img {
+        max-width: 350px;
+    }
+}
+
+
+/* =========================
+   VERY SMALL PHONE
+========================= */
+
+@media (max-width: 400px) {
+
+    .navbar {
+        padding: 15px 5%;
+    }
+
+    #menu-container {
+        gap: 18px;
+    }
+
+    #menu-container span a {
+        font-size: 12px;
+    }
+
+    .left-card {
+        padding: 25px 15px;
+    }
+
+    #me {
+        font-size: 23px;
+    }
+
+    .btn {
+        font-size: 13px;
+
+        padding: 10px 15px;
+    }
+
+    #taburo th,
+    #taburo td {
+        padding: 9px 10px;
+
+        font-size: 11px;
+    }
+
+    .right-image {
+        width: 100%;
+    }
+}
